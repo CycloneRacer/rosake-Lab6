@@ -1,0 +1,11 @@
+spring:
+  application:
+    name:myDB
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb/mymarket?createDatabaseIfNotExist=true
+    username: root
+    password: P@ssw0rd
+  jpa:
+    show-sql: true
+server:
+  port: 8081
